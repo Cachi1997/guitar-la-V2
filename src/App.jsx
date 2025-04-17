@@ -14,7 +14,6 @@ const App = () => {
       updatedCart[itemExists].quantity += 1;
       setCart(updatedCart);
     } else {
-      console.log("Agregado al carrito");
       item.quantity = 1;
       setCart([...cart, item]);
     }
@@ -22,7 +21,7 @@ const App = () => {
 
   return (
     <>
-      <Header />
+      <Header cart={cart} />
 
       <main className="container-xl mt-5">
         <h2 className="text-center">Nuestra Colección</h2>
