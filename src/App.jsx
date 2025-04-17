@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import Guitar from "./components/Guitar.jsx";
 import Header from "./components/Header.jsx";
+import Footer from "./components/Footer.jsx";
 import { db } from "./data/db";
 
 const App = () => {
@@ -85,13 +86,7 @@ const App = () => {
         </div>
       </main>
 
-      <footer className="bg-dark mt-5 py-5">
-        <div className="container-xl">
-          <p className="text-white text-center fs-4 mt-4 m-md-0">
-            GuitarLA - Todos los derechos Reservados
-          </p>
-        </div>
-      </footer>
+      <Footer />
     </>
   );
 };
