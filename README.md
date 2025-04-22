@@ -6,7 +6,7 @@ Es Una (SPA) **Single Page Application** simple de e‑commerce para una colecci
 
 ## Demo en Vivo
 
-[Ver la aplicación en Netlify](https://serene-bubblegum-b4341a.netlify.app/)
+[Ver la aplicación en Netlify](https://jovial-starship-d36c41.netlify.app/)
 
 ---
 
