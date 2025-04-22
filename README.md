@@ -13,12 +13,12 @@ Es Una (SPA) **Single Page Application** simple de e‑commerce para una colecci
 ## Características
 
 - **Listado de Guitarras**  
-  Muestra una galería responsiva de 12 guitarras con nombre, descripción, imagen y precio (datos cargados desde un arreglo estático) :contentReference[oaicite:0]{index=0}.
+  Muestra una galería responsiva de 12 guitarras con nombre, descripción, imagen y precio (datos cargados desde un arreglo estático)
 - **Carrito de Compras**
   - Añade productos al carrito con cantidad inicial.
   - Incrementa/decrementa cantidad (entre 1 y 5 unidades).
   - Elimina productos individualmente o vacía todo el carrito.
-  - Persistencia en `localStorage` para mantener el carrito entre recargas :contentReference[oaicite:1]{index=1}.
+  - Persistencia en `localStorage` para mantener el carrito entre recargas.
 - **Encabezado y Pie de Página**
   - Cabecera con logo y carrusel del carrito interactivo.
   - Footer sencillo con derechos reservados.
@@ -40,16 +40,12 @@ Es Una (SPA) **Single Page Application** simple de e‑commerce para una colecci
 
 1. **Clonar el repositorio**
 
-   ```bash
-   git clone https://github.com/Cachi1997/guitar-la-V2.git
+```bash
+ git clone https://github.com/Cachi1997/guitar-la-V2.git
 
-   cd guitar-la-V2
+ cd guitar-la-V2
 
-   npm install
+ npm install
 
-   npm run dev
-   ```
-
-```
-
+ npm run dev
 ```
